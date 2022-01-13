@@ -1,4 +1,19 @@
-.map{
-    height: 98vh;
-    width: 100%;
+body{
+    margin:0;
+}
+#right-bar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right:30px;
+    width: 300px;
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 1);
+    z-index: 999;
+}
+#map {
+    height: 100vh;
+    width: 100vw;
 }
